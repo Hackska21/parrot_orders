@@ -1,0 +1,21 @@
+
+POST http://127.0.0.1:8000/orders/
+Content-Type: application/json
+Cookie: sessionid
+
+{
+    "customer_name": "cliente 1",
+    "price": "50",
+    "products":[
+    {
+        "product_name": "producto 1 ",
+        "unit_price": "50",
+        "quantity": 1
+    },
+      {
+        "product_name": "producto 2 ",
+        "unit_price": "50",
+        "quantity": 1
+    }
+]
+}
